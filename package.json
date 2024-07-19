@@ -1,0 +1,17 @@
+{
+  "name": "brunchcoremusic",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    // "compile:sass": "node-sass sass/main.scss styles/styles.css"
+  },
+  "author": "Joel Bruns",
+  "license": "ISC",
+  // "devDependencies": {
+  //   "node-sass": "^9.0.0"
+  // },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}

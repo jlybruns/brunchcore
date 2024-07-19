@@ -1,0 +1,55 @@
+$primary: #3d405b;
+$font-family-base: 'Source Sans 3', sans-serif;
+$body-bg: #fbf8f4;
+$secondary: #e07a5f;
+$contact: #fbf5ef;
+$hero-bg: #f7eee1;
+
+h1 {
+    font-family: "Playfair", serif;
+}
+
+p {
+    font-family: Source Sans, sans-serif;
+}
+
+.btn-link {
+    color: #d49786 !important;
+}
+
+.btn-link:hover {
+    color: #e07a5f !important;
+}
+
+#contact-form {
+    background-color: $contact;
+    padding: 20px;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-wrap {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    background-color: $contact;
+    width: calc(100% + 10rem);
+    margin-left: 46px;
+}
+
+.mbr-z-index20 {
+    z-index: 20;
+}
+
+.content-wrap {
+    background-color: $hero-bg;
+}
+
+@import '../node_modules/bootstrap//scss/bootstrap';
+
+//Notes on colors Accent 1: #e07a5f(Orange), Accent 2: #3d405b(purple), Accent 3: #81b29a(green). bg: #faf8ec
